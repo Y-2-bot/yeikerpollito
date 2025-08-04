@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+
+    <style>
+        .fondo-jpg{
+            background-image: url(../8.Paginaweb/image/fond.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        body {
+            background-image: url(../8.Paginaweb/archivos/fonfopag.jpg);
+        }
+        .carrusel {
+      width: 100%;
+      max-width: 600px;
+      margin: auto;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .imagenes {
+      display: flex;
+      width: 100%;
+    }
+
+    .imagenes img {
+      width: 100%;
+      height: auto;
+    }
+
+    .boton {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(0,0,0,0.5);
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      font-size: 18px;
+      z-index: 1;
+    }
+
+    .anterior {
+      left: 10px;
+    }
+
+    .siguiente {
+      right: 10px;
+    }   
+
+    .table{
+        width: 100%;
+        margin: 5px;
+
+
+    }
+
+    th,td{
+        width: 50%;
+        border: 1px;
+        padding: 30px;
+        text-align: center;
+    }
+    th{
+        background-color: goldenrod;
+        color: black;
+    }
+
+    h1{
+        font-size: 70px;
+    }
+
+    </style>
+    
+    <div class="fondo-jpg">
+        <h1 style="color: gold; text-align: center;"><em>Feria del libro 2025</em></h1><br><br><br><br><br>
+    </div>
+
+    <h2 style="color: aqua;">Fecha del evento: 10/08/2025</h2><br>
+    <h3>
+        <p style="color: aliceblue;text-align: center;">La Feria del Libro en Medellín forma parte de los Eventos del Libro que se realizan cada año bajo la estrategia del Plan de Lectura LEO, con el propósito de convertir a la ciudad en un espacio libre para la palabra y la imaginación. Desde 2025, se integró un cuarto evento: el Festival del Libro Infantil, junto con la Feria Popular Días del Libro, la Parada Juvenil de la Lectura y la Fiesta del Libro y la Cultura</p>
+    </h3>
+
+    <h2 style="color: aqua; text-align: center;">Impacto cultural</h2>
+    <h3>
+        <p style="color: aliceblue; text-align: center;">La Fiesta del Libro y la Cultura 2024 atrajo más de 500.000 visitantes y registró ventas por más de 9.148 millones de pesos, con alrededor de 210.000 libros vendidos. El 75 % de los asistentes eran jóvenes (estratos 1 a 3), lo que demuestra su alcance inclusivo y popular <br>
+        La Feria del Libro en Medellín ya no es un solo evento: es un conjunto de iniciativas gratuitas, con alcance local e internacional, que promueven inclusión, creatividad y comunidad. El enfoque en "El mañana" invita a imaginar futuros posibles a través de la literatura y la cultura, involucrando a niñas, jóvenes y adultos.</p>
+    </h3>
+
+    <div class="carrusel">
+     <button class="boton anterior" onclick="mover(-1)">❮</button>
+  <div class="imagenes" id="carrusel">
+    <img src="archivos/libro1.jpg" alt="Imagen 1">
+    <img src="archivos/libro2.jpg" alt="Imagen 2">
+    <img src="archivos/libro3.jpg" alt="Imagen 3">
+  </div>
+  <button class="boton siguiente" onclick="mover(1)">❯</button>
+</div>
+<hr>
+<table border class="table">
+    <tr>
+        <th>Comprar libros</th>
+        <th>Mas informacion</th>
+    </tr>
+    <tr>
+        <th><a href="https://bookshop.org/"target="_blank">https://bookshop.org/</a></th>
+        <th><a href="https://fiestadellibroylacultura.com/"target="_blank">https://fiestadellibroylacultura.com/</a></th>
+    </tr>
+</table>
+
+
+    <hr>
+
+    <h2 style="text-align: center; color: aqua;"><em>Videos</em></h2>
+
+    <video src="../8.Paginaweb/archivos/2268807-hd_1280_720_24fps.mp4" width="33%" height="650px" controls muted autoplay></video> <td></td>
+    <video src="../8.Paginaweb/archivos/libreria.mp4" width="33%" height="650px" controls muted autoplay></video><td></td>
+    <video src="../8.Paginaweb/archivos/book2.mp4" width="33%" height="650" controls muted autoplay></video>
+
+    <hr>
+
+    
+    <h2 style="color: aqua;"><em>Direccion</em></h2>
+    <h2>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15863.746401441738!2d-75.5646078571229!3d6.272067703529402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428fa91af2eab%3A0xece8ebee5758920e!2sFiesta%20del%20Libro%20y%20La%20Cultura!5e0!3m2!1sen!2sco!4v1754311581967!5m2!1sen!2sco" width="49.5%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  <td></td><iframe src="https://www.google.com/maps/embed?pb=!4v1754311950287!6m8!1m7!1sxBbQRhqEkUSevkVYVSxH-Q!2m2!1d6.271163180941501!2d-75.56390654330002!3f145.20465794294668!4f-14.792529815694053!5f0.7820865974627469" width="49.5%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </h2>
+
+    <hr>
+
+    <a href="https://x.com/?lang=es"target="_blank"><img src="archivos/Twitter.png" alt="Twitter" width="100px" height="100px"></a>
+    <a href="https://www.facebook.com/"target="_blank"><img src="archivos/face.png" alt="Twitter" width="100px" height="100px"></a>
+    <a href="https://www.instagram.com/"target="_blank"><img src="archivos/insta.png" alt="Twitter" width="100px" height="100px"></a>
+
+    <script>
+  let indice = 0;
+
+  function mover(direccion) {
+    const carrusel = document.getElementById("carrusel");
+    const total = carrusel.children.length;
+    indice += direccion;
+
+    if (indice < 0) indice = total - 1;
+    if (indice >= total) indice = 0;
+
+    carrusel.style.transform = `translateX(-${indice * 100}%)`;
+  }
+</script>
+
+    
+    
+</body>
+</html>
